@@ -6,7 +6,7 @@ obtain your client ID, client secret and API key and paste them in the below URL
 ## 🚀 One-Click Deploy
 
 - obtain your client ID, client
-  [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/govind-eka/eka-vercel-nextjs&env=EKA_CLIENT_ID,EKA_CLIENT_SECRET,EKA_API_KEY&envDescription=Your%20EKA%20Healthcare%20API%20credentials%20from%20the%20hackathon&envLink=http://developer.eka.care/api-reference/)
+  [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/govind-eka/ekathon-express-auth-api&env=EKA_CLIENT_ID,EKA_CLIENT_SECRET,EKA_API_KEY&envDescription=Your%20EKA%20Healthcare%20API%20credentials%20from%20the%20hackathon&envLink=http://developer.eka.care/api-reference/)
 
 **During deployment, you'll be prompted to enter:**
 

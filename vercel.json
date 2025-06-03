@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/manage-auth.ts",
+      "use": "@vercel/node"
+    }
+  ]
+}
