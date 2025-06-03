@@ -1,4 +1,4 @@
-# EKA Healthcare Auth Proxy - Next.js
+# EKA Healthcare Auth Proxy - Express.js
 
 repo to be used if participants decide to use eka care's SDK on FE directly
 obtain your client ID, client secret and API key and paste them in the below URL and click on the `deploy` button. that makes a repo in your vercel account, and will clone this repo and deploy, and then when initing the SDK on a FE client side app you can use this domain and api route. (more on that, link)
@@ -6,13 +6,18 @@ obtain your client ID, client secret and API key and paste them in the below URL
 ## 🚀 One-Click Deploy
 
 - obtain your client ID, client
-  [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/govind-eka/ekathon-express-auth-api&env=EKA_CLIENT_ID,EKA_CLIENT_SECRET,EKA_API_KEY&envDescription=Your%20EKA%20Healthcare%20API%20credentials%20from%20the%20hackathon&envLink=http://developer.eka.care/api-reference/)
 
-**During deployment, you'll be prompted to enter:**
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fgovind-eka%2Fekathon-express-auth-api&env=EKA_CLIENT_ID,EKA_CLIENT_SECRET,EKA_API_KEY&envDescription=Your%20EKA%20Healthcare%20API%20credentials%20from%20the%20hackathon&envLink=https%3A%2F%2Fdeveloper.eka.care%2Fapi-reference%2F)
 
-- `EKA_CLIENT_ID` - Your client ID
-- `EKA_CLIENT_SECRET` - Your client secret
-- `EKA_API_KEY` - Your API key
+- after clicking on the button you will be taken to this kind of a UI, where you can clone the repo and deploy
+![alt text](image.png)
+
+- click the create button
+
+- you are now prompted to enter your credientials that got stored as env vars in your own vercel account and these credientials are used in the `api/manage-auth` route
+![alt text](image-1.png)
+fill the respective values and click deploy
+
 
 ## 📋 Usage
 
