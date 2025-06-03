@@ -34,7 +34,7 @@ function sendResponse(
   res.status(status).json(data);
 }
 
-export default async function handler(req: VercelRequest, res: VercelResponse) {
+export default async function manageAuthHandler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== "POST") {
     return sendResponse(res, 405, {
       success: false,
