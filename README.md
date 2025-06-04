@@ -30,6 +30,5 @@ const eka = createEkaInstance({
   source: "FE",
   auth_token: "initial-token",
   backendAuthEndpointURL: "https://URL-that-vercel-gives-you/api/manage-auth",
-  base_url: "https://api.eka.care" | "https://api.dev.eka.care",
 });
 ```
