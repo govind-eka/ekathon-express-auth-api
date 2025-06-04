@@ -34,7 +34,21 @@ function sendResponse(
   res.status(status).json(data);
 }
 
-export default async function manageAuthHandler(req: VercelRequest, res: VercelResponse) {
+export default async function manageAuthHandler(
+  req: VercelRequest,
+  res: VercelResponse
+) {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader(
+    "Access-Control-Allow-Methods",
+    "GET,POST,OPTIONS,PUT,PATCH,DELETE"
+  );
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
+
+  if (req.method === "OPTIONS") {
+    return res.status(200).end();
+  }
+
   if (req.method !== "POST") {
     return sendResponse(res, 405, {
       success: false,

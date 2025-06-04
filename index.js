@@ -11,7 +11,7 @@ router.get("/", (_req, res) => {
   res.send("Express is working");
 });
 
-router.get("/manage-auth", (req, res) => {
+router.all("/manage-auth", (req, res) => {
   manageAuthHandler(req, res);
 });
 
